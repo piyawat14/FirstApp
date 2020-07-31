@@ -14,8 +14,11 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/dd"
             android:src="@drawable/piyawat"
-            tools:layout_editor_absoluteX="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="0dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
