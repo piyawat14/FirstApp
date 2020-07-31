@@ -14,11 +14,22 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/dd"
-            android:src="@drawable/piyawat"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/piyawat" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="154dp"
+            android:layout_height="65dp"
+            android:fontFamily="@font/aguafina_script"
+            android:text="MAIN"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="0dp" />
+            tools:layout_editor_absoluteY="65dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
